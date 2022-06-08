@@ -5,6 +5,8 @@ function Nav(props) {
         categories = [],
         setCurrentCategory,
         currentCategory,
+        isSelected,
+        setIsSelected
     } = props
 
     useEffect(() => {
@@ -20,11 +22,13 @@ function Nav(props) {
                 <ul className="nav-ul">
                     {categories.map((category) => (
                         <li
-                        className="nav-li"
+                        className={`nav-li ${currentCategory.name === category.name && isSelected && 'nav-active'}`}
                         key={category.name}>
                             <span
                             onClick={() => {
                                 setCurrentCategory(category);
+
+                                    setIsSelected(true);
                             }}
                             title={category.description}>
                                 {category.name}

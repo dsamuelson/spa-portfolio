@@ -9,9 +9,23 @@ function ContactForm() {
     function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
-            console.log(isValid);
-          }  
-        setFormState({...formState, [e.target.name]: e.target.value })
+            if (!isValid) {
+                setErrorMessage('Your email is not Valid');
+            } else {
+                setErrorMessage('');
+            }
+        } else {
+            if (!e.target.value.length) {
+                setErrorMessage(`${e.target.name} is required.`)
+            } else {
+                setErrorMessage('');
+            }
+        }  
+        if (!errorMessage) {
+            setFormState({...formState, [e.target.name]: e.target.value })
+            console.log('Handle Form', formState)
+        }
+        
         
     }
 
@@ -40,7 +54,8 @@ function ContactForm() {
                 <br />
                 <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
             </div>
-            {errorMessage && (<div>
+            {errorMessage && (
+            <div>
               <p className="error-text">{errorMessage}</p>
             </div>)}
             <button type="submit">Submit</button>

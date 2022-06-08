@@ -16,6 +16,7 @@ function App() {
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [isSelected, setIsSelected] = useState(false);
 
   return (
     <div className='app-cont'>
@@ -23,6 +24,8 @@ function App() {
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
+        isSelected={isSelected}
+        setIsSelected={setIsSelected}
       >
       </Nav>
       <main className='main-cont'>

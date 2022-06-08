@@ -22,6 +22,11 @@ code {
     monospace;
 }
 
+.nav-active {
+  color: orange;
+  text-decoration: underline;
+}
+
 header {
   background-image: url(./assets/images/polygonal-banner.jpg);
   background-size: cover;
@@ -131,4 +136,42 @@ textarea {
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
+}
+
+.portfolio-cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 80vh;
+  align-items: center;
+}
+
+.portfolio-link {
+  margin: 5px;
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.portfolio-link img {
+  max-width: 100%;
+  min-height: 200px;
+}
+
+.work-title h3 {
+  margin: 0;
+}
+
+.work-title p {
+  margin: 0;
+}
+
+.work-title {
+  margin: 0;
+  width: max-content;
+  background-color: darkseagreen;
+  height: max-content;
+  position: absolute;
+  bottom: 20px;
 }
