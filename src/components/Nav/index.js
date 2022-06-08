@@ -17,9 +17,10 @@ function Nav(props) {
                 <a href="/">David Samuelson</a>
             </h2>
             <nav>
-                <ul>
+                <ul className="nav-ul">
                     {categories.map((category) => (
                         <li
+                        className="nav-li"
                         key={category.name}>
                             <span
                             onClick={() => {
