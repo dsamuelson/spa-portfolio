@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# SPA-Portfolio
+![Unlicense badge](https://img.shields.io/badge/License-Unlicense-success)
+## Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Description](#description)
+- [Contributors](#contributors)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact Information](#contact)
+- [License](#license)
 
-## Available Scripts
+## Deployed Website
 
-In the project directory, you can run:
+https://dsamuelson.github.io/spa-portfolio/
+## Description
 
-### `npm start`
+This is my portfolio built using React! Of course this is not my total portfolio, but it is enough to demonstrate my knowledge of React principles and show off some of my work. It can be adjusted to meet the needs of whoever wants to use it. All styling is done in the index.css so if you don't like the simple style I went with feel free to adjust it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ When you enter the page you are greeted with the "about me" section which has a short description of myself and how I got into web-development. I have made the page mobile-first responsive so feel free to browse from your phone.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ ![about-page](src/assets/images/about-page.png)
 
-### `npm test`
+ After you choose to go to another page the link you picked will go orange and underlined and the title of the tab will change to whatever the current page is.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ ![portfolio page](src/assets/images/portfolio-page.png)
 
-### `npm run build`
+ Here is a good example of how it's mobile responsive as you can see everything lines up nicely and when you go to a larger screen size it will grid up.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ![portfolio desktop page](src/assets/images/portfolios-page-desktop.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+There is a non-functioning contact page (non-functioning as in it is not attached to a backend database so it won't actually contact anyone, though it could be attached to a database and made functional)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![contact page](src/assets/images/contact-page.png)
 
-### `npm run eject`
+ Then finally there is a page dedicated to my resume which you can download at any time but you get a general idea of my proficiencies.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![resume page](src/assets/images/resume-page.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Thank you very much for using my page!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributors
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+David Samuelson
 
-## Learn More
+## Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Uses React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Very responsive
 
-### Code Splitting
+- mobile first design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Installation
 
-### Analyzing the Bundle Size
+- it is deployed, but if you want to work on it yourself just clone the repository to a local repo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- run npm -i to install the required modules
 
-### Making a Progressive Web App
+- run npm start to start up a local server which should automatically open the page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Usage
 
-### Advanced Configuration
+- usage is like any web page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
 
-### Deployment
+linksn.1fan@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+GitHub: https://github.com/dsamuelson?tab=repositories
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Link: https://choosealicense.com/licenses/unlicense/
+
+License Terms:
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <https://unlicense.org>
+    
