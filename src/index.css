@@ -222,3 +222,12 @@ textarea {
 .portfolio-link:hover .git-hub-link {
   opacity: 1;
 }
+
+@media screen and (max-width: 900px) {
+  .portfolio-cont {
+    height: auto;
+  }  
+  .portfolio-link {
+    width: 90%;
+  }
+}
