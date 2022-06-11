@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/spa-portfolio/static/css/main.1daf16ca.css",
-    "main.js": "/spa-portfolio/static/js/main.f78b5005.js",
+    "main.css": "/spa-portfolio/static/css/main.1ae8b037.css",
+    "main.js": "/spa-portfolio/static/js/main.e8ac05e4.js",
     "static/js/787.b9d66382.chunk.js": "/spa-portfolio/static/js/787.b9d66382.chunk.js",
     "static/media/digital-marketing-meeting.jpg": "/spa-portfolio/static/media/digital-marketing-meeting.c672fcf0b6bd0c33ff16.jpg",
     "static/media/budgetek.jpg": "/spa-portfolio/static/media/budgetek.ae21120eba07ee79478a.jpg",
     "static/media/croppedrockies.png": "/spa-portfolio/static/media/croppedrockies.4c1c542b86a648c6162b.png",
+    "static/media/portfolios-page-desktop.png": "/spa-portfolio/static/media/portfolios-page-desktop.6177b5774d6f1a6b68d6.png",
     "static/media/run-buddy.jpg": "/spa-portfolio/static/media/run-buddy.000e1b5ff4f0b912c97f.jpg",
+    "static/media/portfolio-page.png": "/spa-portfolio/static/media/portfolio-page.942a7137b321e9aaf4af.png",
     "static/media/photo-port-cut.png": "/spa-portfolio/static/media/photo-port-cut.86b9c5a6c707122df66c.png",
     "static/media/profile-pic.jpg": "/spa-portfolio/static/media/profile-pic.4ce671f0f3f82659c244.jpg",
+    "static/media/about-page.png": "/spa-portfolio/static/media/about-page.cffc51922d664f2b67ce.png",
     "static/media/e-comm-backend.png": "/spa-portfolio/static/media/e-comm-backend.2bbbfc45c0589c2bcba8.png",
     "static/media/resume.pdf": "/spa-portfolio/static/media/resume.f09bfde63cedd09eab82.pdf",
+    "static/media/resume-page.png": "/spa-portfolio/static/media/resume-page.1ff949b5cad18311dbb8.png",
+    "static/media/contact-page.png": "/spa-portfolio/static/media/contact-page.623a4282f29f72b53bde.png",
     "index.html": "/spa-portfolio/index.html",
-    "main.1daf16ca.css.map": "/spa-portfolio/static/css/main.1daf16ca.css.map",
-    "main.f78b5005.js.map": "/spa-portfolio/static/js/main.f78b5005.js.map",
+    "main.1ae8b037.css.map": "/spa-portfolio/static/css/main.1ae8b037.css.map",
+    "main.e8ac05e4.js.map": "/spa-portfolio/static/js/main.e8ac05e4.js.map",
     "787.b9d66382.chunk.js.map": "/spa-portfolio/static/js/787.b9d66382.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1daf16ca.css",
-    "static/js/main.f78b5005.js"
+    "static/css/main.1ae8b037.css",
+    "static/js/main.e8ac05e4.js"
   ]
 }
